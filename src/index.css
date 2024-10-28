@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.img1 {
+  background-image: url('/it.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.img2 {
+  background-image: url('/coding.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.img3 {
+  background-image: url('/note.gif');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
